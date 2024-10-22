@@ -31,14 +31,14 @@ const Header = () => {
             </div>
 
             <div className="flex items-center w-full justify-center  gap-5  lg:justify-between">
-                    <div className="hidden lg:flex justify-center items-center gap-4 text-base font-medium w-[100%]">
+                    <div className="hidden lg:flex justify-center items-center gap-5 text-base font-medium w-[100%]">
                         <a href="">Home</a>
                         <a href="">Recipes</a>
                         <a href="">About</a>
                         <a href="">Search</a>
                     </div>
 
-                    <div className="w-[100%] flex items-center gap-6 justify-center md:justify-end">
+                    <div className="w-[80%] flex items-center gap-6 justify-center md:justify-end">
                         <div className="relative">
                         <i className="absolute left-3 top-1/2 transform -translate-y-1/2 fa-solid fa-magnifying-glass"></i>
                         <input className="pl-8 input w-auto" type="text" placeholder="Search"/>

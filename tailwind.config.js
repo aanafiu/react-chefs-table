@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors:{
-        searchBG:"rgba(21, 11, 43, 0.05)"
+        searchBG:"rgba(21, 11, 43, 0.05)",
+        btnBG : "rgba(11, 229, 138, 1)",
+        btnText : "rgba(21, 11, 43, 1)",
       }
     },
   },

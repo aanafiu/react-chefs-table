@@ -1,3 +1,4 @@
+import Banner from "./components/banner";
 import Header from "./components/header";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <div>
 
       <Header></Header>
+      <Banner></Banner>
       
     </div>
   );
