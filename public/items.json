@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "400g canned tomatoes",
+        "200g spaghetti"
+      ],
+      "cookingTime": "30 minutes",
+      "calories": "600 calories",
+      "imageUrl": "https://i.ibb.co.com/4WZh8CB/pic.jpg",
+      "buttonText": "Want to Cook"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Caesar Salad",
+      "description": "Fresh and healthy salad with grilled chicken and Caesar dressing.",
+      "ingredients": [
+        "200g grilled chicken",
+        "1 head romaine lettuce",
+        "50g Parmesan cheese, shaved",
+        "Croutons",
+        "Caesar dressing"
+      ],
+      "cookingTime": "20 minutes",
+      "calories": "400 calories",
+      "imageUrl": "https://i.ibb.co.com/4WZh8CB/pic.jpg",
+      "buttonText": "Want to Cook"
+    },
+    {
+      "id": 3,
+      "title": "Margherita Pizza",
+      "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+      "ingredients": [
+        "Pizza dough",
+        "100g mozzarella cheese",
+        "50g tomato sauce",
+        "Fresh basil leaves",
+        "Olive oil"
+      ],
+      "cookingTime": "15 minutes",
+      "calories": "500 calories",
+      "imageUrl": "https://i.ibb.co.com/4WZh8CB/pic.jpg",
+      "buttonText": "Want to Cook"
+    },
+    {
+      "id": 4,
+      "title": "Beef Tacos",
+      "description": "Soft tacos filled with seasoned beef, cheese, and fresh veggies.",
+      "ingredients": [
+        "300g ground beef",
+        "Taco shells",
+        "50g cheddar cheese, shredded",
+        "Lettuce, chopped",
+        "Tomato, diced"
+      ],
+      "cookingTime": "25 minutes",
+      "calories": "450 calories",
+      "imageUrl": "https://i.ibb.co.com/4WZh8CB/pic.jpg",
+      "buttonText": "Want to Cook"
+    },
+    {
+      "id": 5,
+      "title": "Grilled Salmon",
+      "description": "Perfectly grilled salmon with a hint of lemon and herbs.",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon, sliced",
+        "Fresh dill",
+        "Salt and pepper",
+        "Olive oil"
+      ],
+      "cookingTime": "20 minutes",
+      "calories": "350 calories",
+      "imageUrl": "https://i.ibb.co.com/4WZh8CB/pic.jpg",
+      "buttonText": "Want to Cook"
+    },
+    {
+      "id": 6,
+      "title": "Vegetable Stir Fry",
+      "description": "A quick and healthy stir fry with mixed vegetables and soy sauce.",
+      "ingredients": [
+        "Broccoli, chopped",
+        "1 bell pepper, sliced",
+        "Carrots, julienned",
+        "Soy sauce",
+        "Ginger, minced"
+      ],
+      "cookingTime": "15 minutes",
+      "calories": "300 calories",
+      "imageUrl": "https://i.ibb.co.com/4WZh8CB/pic.jpg",
+      "buttonText": "Want to Cook"
+    }
+  ]
+  
