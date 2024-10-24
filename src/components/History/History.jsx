@@ -1,10 +1,11 @@
 import Current from './Current';
 import List from './List';
-const History = ({items, removeFromList,listRemove}) => {
+
+const History = ({items, removeFromList,listRemove,totalTime,totalCalories}) => {
     // console.log(items);
 
     return (
-        <div className="w-[60%] bg-blue-400 p-4 border-2 rounded-lg">
+        <div className="w-full md:w-[60%] text-btnBG bg-btnText p-4 border-2 rounded-lg">
             
             <div className="my-3">
                 <h1 className="font-bold text-2xl border-b-2 text-center">Want to Cook:  {items.length}</h1>
@@ -23,6 +24,7 @@ const History = ({items, removeFromList,listRemove}) => {
                             <List key={index} item = {item} index={index} removeFromList = {removeFromList}></List>
                         )
                     }  
+                    
             </div>
 
             {/* remove */}
@@ -43,7 +45,14 @@ const History = ({items, removeFromList,listRemove}) => {
                             // <List key={index} item = {item} index={index} ></List>
                             <Current key={index} item = {item} index={index}></Current>
                         )
+
                         }  
+
+                        <div className='w-full text-right'>
+                        <h1 className='text-xl font-bold'>Total Time: {totalTime}</h1>
+                        <h1 className='text-xl font-bold'>Total Calories: {totalCalories}</h1>
+                        </div>
+                        
                 </div>
             </div>
         </div>

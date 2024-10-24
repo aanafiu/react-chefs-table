@@ -1,11 +1,7 @@
-import { useState } from "react";
-import { useEffect } from "react";
+
 
 const Current = ({item,index}) => {
-    const [totalTime, setTotalTime] = useState(0);
-    useEffect(() => {
-        setTotalTime(totalTime + item.cookingTime);
-    }, [item.cookingTime]);
+    
     return (
         <div>
 
@@ -16,7 +12,7 @@ const Current = ({item,index}) => {
     <h1 className="col-span-4">{item.calories}</h1>
 </div>
 
-<h1>{totalTime}</h1>
+{/* <h1>{totalTime}</h1> */}
             
         </div>
     );

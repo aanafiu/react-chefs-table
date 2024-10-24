@@ -14,9 +14,9 @@ const Items = ({wantToCook}) => {
      },[ ])
 
     return (
-        <div className="w-[80%]">
+        <div className="w-full lg:w-[80%]">
 
-                <div className="grid grid-cols-2 place-content-center gap-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 place-content-center gap-5">
 
                     {
                         items.map(item => <Item key={item.id} item={item} wantToCook = {wantToCook}></Item>)
